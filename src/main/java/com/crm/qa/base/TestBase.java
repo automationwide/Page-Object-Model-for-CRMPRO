@@ -1,6 +1,6 @@
 package com.crm.qa.base;
 /*
- * Author = Jolomi Thompson
+ * Author - Jolomi Thompson
  * 
  */
 import java.io.FileInputStream;

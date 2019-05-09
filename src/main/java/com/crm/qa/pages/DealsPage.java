@@ -1,6 +1,6 @@
 package com.crm.qa.pages;
 /*
- * Author = Jolomi Thompson
+ * Author - Jolomi Thompson
  * 
  */
 import com.crm.qa.base.TestBase;

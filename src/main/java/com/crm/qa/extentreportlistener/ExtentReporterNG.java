@@ -1,6 +1,6 @@
 package com.crm.qa.extentreportlistener;
 /*
- * Author = Jolomi Thompson
+ * Author - Jolomi Thompson
  * 
  */
 import java.io.File;
