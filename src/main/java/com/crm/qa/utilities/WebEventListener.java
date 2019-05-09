@@ -1,5 +1,8 @@
 package com.crm.qa.utilities;
-
+/*
+ * Author - Jolomi Thompson
+ * 
+ */
 import java.io.IOException;
 
 import org.openqa.selenium.By;
