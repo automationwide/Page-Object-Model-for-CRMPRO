@@ -6,6 +6,8 @@
       <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
           <include name="verifyCorrectUsername"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyContactLinkTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
