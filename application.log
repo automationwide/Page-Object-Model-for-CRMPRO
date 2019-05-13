@@ -1,0 +1,39 @@
+2019-05-13 13:08:20,521  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:08:24,203  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:08:25,384  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:08:28,582  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:08:37,209  INFO [main] TestBase:38 - ***************Veriying Home Page Title**************
+2019-05-13 13:08:38,344  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:08:41,507  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:08:51,840  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:08:55,142  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:08:56,276  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:08:59,598  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:09:09,512  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:09:12,831  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:09:23,295  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:09:26,445  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:09:35,757  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:09:38,922  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:09:49,176  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:09:52,433  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:10:03,345  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:10:06,472  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:10:20,669  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:10:24,023  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:10:37,772  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:10:41,126  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:10:54,757  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:10:57,967  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:11:11,492  INFO [main] TestBase:53 - Launch Chrome Browser
+2019-05-13 13:11:14,771  WARN [main] TestBase:74 - This is a warning
+2019-05-13 13:11:28,575 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2019-05-13 13:11:28,576 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2019-05-13 13:11:28,578 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-05-13 13:11:28,578 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-05-13 13:11:28,579 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/jolomi.thompson/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-05-13 13:11:28,801 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2019-05-13 13:11:28,801 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2019-05-13 13:11:28,802 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-05-13 13:11:28,802 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-05-13 13:11:28,802 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/jolomi.thompson/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

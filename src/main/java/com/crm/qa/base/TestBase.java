@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -24,6 +25,7 @@ public class TestBase {
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
+	public static Logger log;
 
 
 	
@@ -46,10 +48,16 @@ public static void initialization() {
 		System.setProperty("webdriver.chrome.driver", 
 				"/Users/jolomi.thompson/Selenium/workspace/Drivers/chromedriver");
 		driver = new ChromeDriver();
+		// creating Logs
+		log = Logger.getLogger(TestBase.class);
+		log.info("Launch Chrome Browser");
 	}
 	else if(browserName.equals("FF")){
 		System.setProperty("webdriver.gecko.driver", "/Users/jolomi.thompson/Selenium/workspace/geckodriver");	
 		driver = new FirefoxDriver(); 
+		// creating Logs
+		log = Logger.getLogger(TestBase.class);
+		log.info("Launch FireFox Browser");
 	}
 	e_driver = new EventFiringWebDriver(driver);
 	// Now create object of EventListerHandler to register it with EventFiringWebDriver
@@ -63,6 +71,7 @@ public static void initialization() {
 	driver.manage().timeouts().implicitlyWait(TestUtility.Implicit_Wait, TimeUnit.SECONDS);
 	
 	driver.get(prop.getProperty("url"));
+	log.warn("This is a warning");
 	
 }
 }
