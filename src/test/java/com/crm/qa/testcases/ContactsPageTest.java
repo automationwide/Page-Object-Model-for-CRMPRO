@@ -37,7 +37,7 @@ public class ContactsPageTest extends TestBase {
 			contactsPage = new ContactsPage();
 			landingPage = new LandingPage();
 			homePage = landingPage.login(prop.getProperty("username"), prop.getProperty("password"));
-			// TestUtility.runTimeInfo("error", "login successful");
+			TestUtility.runTimeInfo("error", "login successful");
 			testUtility.switchToFrame();
 			contactsPage = homePage.clickOnContactsBtn();
 		}
